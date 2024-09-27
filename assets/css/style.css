@@ -21,3 +21,9 @@ h1 {
 h2 {
   font-size: medium;
 }
+
+@media print {
+  body {
+    font-size: 14px;
+  }
+}

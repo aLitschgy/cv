@@ -18,5 +18,6 @@ main {
   main {
     margin: 0;
     box-shadow: none;
+    background: white;
   }
 }
