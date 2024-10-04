@@ -3,12 +3,29 @@
     <img id="photoCV" src="assets/img/photoCV.png" alt="Photo CV" />
   </div>
   <h3 class="aside-title"><span>A propos de moi</span></h3>
+  {% include texts/intro.html %}
+  <h3 class="aside-title"><span>Contact</span></h3>
+  {% include texts/contact.html %}
+  <h3 class="aside-title"><span>Langues</span></h3>
+  <h3 class="aside-title"><span>Site internet</span></h3>
+  <h3 class="aside-title"><span>Soft Skills & Forces</span></h3>
+  <h3 class="aside-title"><span>Compétences</span></h3>
+
+  
+  
+
+
+
 </aside>
 
 <style>
   aside {
     background-color: #cdd6d8;
-    padding: 5px;
+    padding: 15px;
+  }
+  
+  aside > p {
+    text-align: justify;
   }
 
   #photoCV {
