@@ -1,0 +1,9 @@
+# Empêcher l'indexation par les moteurs de recherche
+<IfModule mod_headers.c>
+    Header set X-Robots-Tag "noindex, nofollow"
+</IfModule>
+
+# Rediriger tous les moteurs de recherche vers une page d'erreur 403 (Interdite)
+RewriteEngine On
+RewriteCond %{HTTP_USER_AGENT} (googlebot|bingbot|slurp|duckduckbot) [NC]
+RewriteRule .* - [F,L]
