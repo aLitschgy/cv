@@ -2,7 +2,7 @@ main {
   padding: 0;
   font-family: "Utopia", Arial, sans-serif;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1.1fr 2fr;
   grid-template-rows: 100px auto;
 }
 
@@ -20,6 +20,10 @@ h1 {
 
 h2 {
   font-size: medium;
+}
+
+.center {
+  text-align: center;
 }
 
 @media print {
