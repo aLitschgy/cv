@@ -1,27 +1,3 @@
-main {
-  padding: 0;
-  font-family: "Utopia", Arial, sans-serif;
-  display: grid;
-  grid-template-columns: 1.1fr 2fr;
-  grid-template-rows: 100px auto;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  font-weight: normal;
-  margin: 0;
-}
-
-h1 {
-  font-size: 40px;
-}
-
-h2 {
-  font-size: medium;
-}
-
 .center {
   text-align: center;
 }
