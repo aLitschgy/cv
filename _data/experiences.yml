@@ -1,0 +1,16 @@
+- name: Développeur Full-stack
+  location: Toulouse, France
+  corp: Moovance
+  description: ...
+  date: Septembre 2024 - Aujourd'hui
+
+- name: Développeur Full-stack
+  location: Marseille/Aix-en-Provence, France
+  corp: Thales Alenia Space
+  description: >
+    Développement de plusieurs applications pour le pôle 
+    transformation de Thales Alenia Space, principalement 
+    d'une application React TypeScript sous Electron, avec 
+    des contributions en Python et l'utilisation d'autres 
+    frameworks JavaScript tels qu'Angular.
+  date: juin-septembre 2023

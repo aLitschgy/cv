@@ -1,0 +1,11 @@
+- name: Diplôme d'ingénieur ENSEEIHT
+  location: Toulouse, France
+  corp: INP-Toulouse
+  description: Spécialisation en développement logiciel
+  date: 2021-2025
+
+- name: Prépa MPSI-PSI
+  location: Marseille/Aix-en-Provence, France
+  corp: Lycée Thiers / Lycée Paul Cézanne
+  description:
+  date: 2019-2021
