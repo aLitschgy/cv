@@ -1,0 +1,13 @@
+<h2>
+  <i class="uil uil-code-branch"></i>Languages de programmation</h2>
+<hr/>
+<div class="container">
+  <ul>
+    {% for language in site.data.languages %}
+      <li>
+        <strong>{{ language.name }}</strong>
+        {{ language.level }}
+      </li>
+    {% endfor %}
+  </ul>
+</div>

@@ -1,24 +1,9 @@
-<h2><i class="uil uil-graduation-cap"></i> Experiences</h2>
-<hr />
+<h2>
+  <i class="uil uil-briefcase-alt"></i>
+  Experiences</h2>
+<hr/>
 <div class="container">
-  {% for school in site.data.experiences %}
-  <div class="line">
-    <div class="year">
-      <p><strong>{{school.date}}</strong></p>
-    </div>
-    <div class="vertical-line"></div>
-    <div class="info">
-      <div class="inline">
-        <div class="title">
-          <h4>{{school.name}}</h4>
-        </div>
-        <p class="location">
-          <i class="uil uil-location-point"></i>{{school.location}}
-        </p>
-      </div>
-      <p><i>{{school.corp}}</i></p>
-      <p>{{school.description}}</p>
-    </div>
-  </div>
+  {% for exp in site.data.experiences %}
+    {% include function/line.html name=exp.name location=exp.location description=exp.description corp=exp.corp date=exp.date %}
   {% endfor %}
 </div>

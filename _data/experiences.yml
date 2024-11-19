@@ -5,7 +5,7 @@
   date: Septembre 2024 - Aujourd'hui
 
 - name: Développeur Full-stack
-  location: Marseille/Aix-en-Provence, France
+  location: Toulouse, France
   corp: Thales Alenia Space
   description: >
     Développement de plusieurs applications pour le pôle 
@@ -14,3 +14,15 @@
     des contributions en Python et l'utilisation d'autres 
     frameworks JavaScript tels qu'Angular.
   date: juin-septembre 2023
+
+- name: Développeur Full-stack
+  location: Toulouse, France
+  corp: INP-net
+  description: >
+    Développement de "Churros", une application étudiante de 
+    l’ENSEEIHT similaire à un réseau social, par une équipe 
+    de 10 personnes. Réalisée en Svelte, TypeScript et PLpgSQL, 
+    sa conception a débuté à l’été 2023 avec pour objectif une 
+    mise en service en septembre. L’application est régulièrement 
+    mise à jour par l’équipe de développement.
+  date: juillet 2023 - Aujourd'hui
