@@ -1,0 +1,12 @@
+- name: TypeScript
+  level: Spécialisé
+  logo-name: typescript
+- name: Php
+  level: Avancé
+  logo-name: php
+- name: React
+  level: Avancé
+  logo-name: react
+- name: Svelte
+  level: Avancé
+  logo-name: svelte

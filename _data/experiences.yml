@@ -3,6 +3,7 @@
   corp: Moovance
   description: ...
   date: Septembre 2024 - Aujourd'hui
+  img: /assets/img/moovance.png
 
 - name: Développeur Full-stack
   location: Toulouse, France
@@ -14,6 +15,7 @@
     des contributions en Python et l'utilisation d'autres 
     frameworks JavaScript tels qu'Angular.
   date: juin-septembre 2023
+  img: /assets/img/TAS.svg
 
 - name: Développeur Full-stack
   location: Toulouse, France
@@ -26,3 +28,4 @@
     mise en service en septembre. L’application est régulièrement 
     mise à jour par l’équipe de développement.
   date: juillet 2023 - Aujourd'hui
+  img: /assets/img/net7.svg

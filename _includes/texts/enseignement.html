@@ -3,6 +3,6 @@
 <hr/>
 <div class="container">
   {% for school in site.data.enseignement %}
-    {% include function/line.html name=school.name location=school.location description=school.description corp=school.corp date=school.date %}
+    {% include function/line.html name=school.name location=school.location description=school.description corp=school.corp date=school.date img=school.img %}
   {% endfor %}
 </div>

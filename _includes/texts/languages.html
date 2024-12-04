@@ -2,9 +2,10 @@
   <i class="uil uil-code-branch"></i>Languages de programmation</h2>
 <hr/>
 <div class="container">
-  <ul>
+  <ul class="language-list">
     {% for language in site.data.languages %}
       <li>
+        <i class="devicon-{{language.logo-name}}-plain colored"></i>
         <strong>{{ language.name }}</strong>
         {{ language.level }}
       </li>

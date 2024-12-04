@@ -3,6 +3,9 @@
     <p>
       <strong>{{ include.date }}</strong>
     </p>
+    {% if include.img != nil %}
+      <img src="{{ include.img }}" alt="logo">
+    {% endif %}
   </div>
   <div class="vertical-line"></div>
   <div class="info">
