@@ -1,12 +1,24 @@
 - name: TypeScript
   level: Spécialisé
   logo-name: typescript
-- name: Php
-  level: Avancé
-  logo-name: php
 - name: React
   level: Avancé
   logo-name: react
 - name: Svelte
   level: Avancé
   logo-name: svelte
+- name: Dart / Flutter
+  level: Avancé
+  logo-name: flutter
+- name: Php
+  level: Avancé
+  logo-name: php
+- name: SQL
+  level: Avancé
+  logo-name: azuresqldatabase
+- name: C
+  level: Avancé
+  logo-name: c
+- name: Java
+  level: Intermédiaire
+  logo-name: java
