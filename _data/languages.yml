@@ -22,3 +22,10 @@
 - name: Java
   level: Intermédiaire
   logo-name: java
+- name: Python
+  level: Avancé
+  logo-name: python
+- name: HTML/CSS
+  level: Spécialisé
+  logo-name: html5
+  logo-name2: css3

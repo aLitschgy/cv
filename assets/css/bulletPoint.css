@@ -1,12 +1,17 @@
 .bullet-points {
   text-align: center;
+  word-spacing: -3px;
+  letter-spacing: -3px;
 }
 
 .bullet {
+  display: inline-block;
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 0.2rem;
-  padding: 0.1rem;
-  margin: 0.2rem;
-  line-height: 1.4rem;
+  padding: 0 0.1rem;
+  margin: 0.1rem;
+  line-height: 1rem;
+  word-spacing: normal;
+  letter-spacing: normal;
   white-space: nowrap;
 }

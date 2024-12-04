@@ -66,4 +66,5 @@ section.main h4 {
 section.main .language-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  font-size: 0.8rem;
 }

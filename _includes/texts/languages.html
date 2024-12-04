@@ -6,8 +6,11 @@
     {% for language in site.data.languages %}
       <li>
         <i class="devicon-{{language.logo-name}}-plain colored"></i>
+        {% if language.logo-name2 != nil %}
+          <i class="devicon-{{language.logo-name2}}-plain colored"></i>
+        {% endif %}
         <strong>{{ language.name }}</strong>
-        {{ language.level }}
+        <i>{{ language.level }}</i>
       </li>
     {% endfor %}
   </ul>
