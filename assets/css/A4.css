@@ -23,6 +23,8 @@ main {
     height: calc(100vw * 29.7 / 21);
     margin: 0;
     box-shadow: none;
+    min-width: 450px;
+    min-height: 642px;
   }
 }
 

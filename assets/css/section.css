@@ -1,36 +1,41 @@
 section.main {
-  padding: 1.5rem;
+  padding: var(--padding-section);
 }
 
 section.main h2 {
   font-weight: 700;
   margin: 0;
   text-transform: uppercase;
+  margin-bottom: var(--margin-block);
 }
 
 section.main > .container {
   display: flex;
   flex-direction: column;
+  gap: var(--spacing-md);
 }
 
 section.main .line {
   display: grid;
-  margin-bottom: 1rem;
+  margin-bottom: var(--margin-block);
   grid-template-columns: 1fr min-content 3fr;
 }
 
 section.main .vertical-line {
   border-left: 1px solid black;
+  margin: 0 var(--margin-inline);
 }
 
 section.main .info .inline {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: var(--spacing-sm);
 }
 
 section.main .location {
   text-wrap: nowrap;
+  margin-left: var(--margin-inline);
 }
 
 section.main .year {
@@ -38,32 +43,37 @@ section.main .year {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  padding: var(--padding-inline);
 }
 
 section.main .info,
 section.main .year {
-  padding: 0 1rem;
+  padding: 0 var(--padding-inline);
 }
 
 section.main .year img {
   max-height: 2rem;
   max-width: 100%;
+  margin: var(--margin-xs) 0;
 }
 
 section.main p {
   font-size: var(--font-size-small);
   margin: 0;
+  padding: var(--padding-xs) 0;
 }
 
 section.main h4 {
   text-wrap: wrap;
   margin: 0;
-  margin-right: 1rem;
+  margin-right: var(--margin-inline);
 }
 
 /* Languages de programmation */
 section.main .language-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  font-size: 0.8rem;
+  font-size: var(--font-size-small);
+  gap: var(--spacing-sm);
+  margin-top: var(--margin-block);
 }

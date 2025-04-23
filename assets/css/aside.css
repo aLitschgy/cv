@@ -1,17 +1,18 @@
 aside {
   background-color: #cdd6d8;
-  padding: 15px;
+  padding: var(--padding-section);
   font-size: var(--font-size-small);
 }
 
 aside > p {
   text-align: justify;
   hyphens: auto;
+  margin: var(--margin-block) 0;
 }
 
 aside .uil,
 aside .fi {
-  margin-right: 5px;
+  margin-right: var(--margin-inline);
 }
 
 aside a:visited,
@@ -24,12 +25,13 @@ aside a {
   height: 180px;
   object-fit: contain;
   border-radius: 50%;
-  margin-top: 10px;
+  margin: var(--margin-block) auto;
 }
 
 .photo-container {
   display: flex;
   flex-direction: column;
+  padding: var(--padding-block) 0;
 }
 
 aside h3 {
@@ -37,13 +39,13 @@ aside h3 {
   text-align: center;
   border-bottom: 1px solid #000;
   line-height: 0.1em;
-  margin: 10px 0 20px;
+  margin: var(--margin-block) 0 var(--margin-lg);
   font-weight: bold;
   font-size: var(--font-size-medium);
-  margin-top: 20px;
+  margin-top: var(--margin-lg);
 }
 
 aside h3 span {
   background: #cdd6d8;
-  padding: 0 10px;
+  padding: 0 var(--padding-inline);
 }

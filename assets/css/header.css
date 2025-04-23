@@ -1,5 +1,5 @@
 header {
-  padding: 0px;
+  padding: var(--padding-section);
   margin: 0;
   height: 100px;
   width: 100%;
@@ -10,6 +10,7 @@ header {
   justify-content: space-around;
   align-items: center;
   grid-column: span 2;
+  box-sizing: border-box;
 }
 
 main {
@@ -26,4 +27,5 @@ header h3,
 header h4 {
   font-weight: normal;
   margin: 0;
+  padding: var(--padding-xs) 0;
 }

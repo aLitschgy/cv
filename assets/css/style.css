@@ -4,14 +4,9 @@ main {
   display: grid;
   grid-template-columns: 1.1fr 2fr;
   grid-template-rows: 100px auto;
+  overflow: hidden;
 }
 
 .center {
   text-align: center;
 }
-
-/* @media print {
-  body {
-    font-size: 14px;
-  }
-} */
