@@ -10,8 +10,8 @@ main {
   text-align: center;
 }
 
-@media print {
+/* @media print {
   body {
     font-size: 14px;
   }
-}
+} */

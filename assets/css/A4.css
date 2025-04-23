@@ -1,6 +1,10 @@
 body {
   background: rgb(204, 204, 204);
   margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 main {
@@ -8,16 +12,56 @@ main {
   display: block;
   margin: 0.5cm auto;
   box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
-  width: min(21cm, 100vw);
-  height: calc(29.7/21*min(21cm, 100vw));
+  width: 21cm;
+  height: 29.7cm;
+  position: relative;
+}
+
+@media screen and (max-width: 21cm) {
+  main {
+    width: 100vw;
+    height: calc(100vw * 29.7 / 21);
+    margin: 0;
+    box-shadow: none;
+  }
 }
 
 @media print {
-  body,
-  page,
+  body {
+    background: white;
+    margin: 0;
+    display: block;
+  }
+
   main {
     margin: 0;
     box-shadow: none;
-    background: white;
+    width: 21cm;
+    height: 29.7cm;
+    page-break-after: always;
+    page-break-inside: avoid;
+  }
+
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  /* Règles pour conserver les couleurs lors de l'impression */
+  header {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    background-color: #243d45 !important;
+    color: #fff !important;
+  }
+
+  aside {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    background-color: #cdd6d8 !important;
+  }
+
+  aside h3 span {
+    background: #cdd6d8 !important;
   }
 }

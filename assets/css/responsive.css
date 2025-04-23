@@ -1,0 +1,40 @@
+/* Styles de base */
+:root {
+  --font-size-base: 1rem;
+  --font-size-h1: 2rem;
+  --font-size-h2: 1.5rem;
+  --font-size-h3: 1.25rem;
+  --font-size-small: 0.875rem;
+}
+
+/* Réduction des tailles de texte pour les petits écrans */
+@media screen and (max-width: 21cm) {
+  :root {
+    --font-size-base: 0.875rem;
+    --font-size-h1: 1.5rem;
+    --font-size-h2: 1.25rem;
+    --font-size-h3: 1.125rem;
+    --font-size-small: 0.75rem;
+  }
+}
+
+/* Application des variables CSS */
+body {
+  font-size: var(--font-size-base);
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+}
+
+h3 {
+  font-size: var(--font-size-h3);
+}
+
+.small-text {
+  font-size: var(--font-size-small);
+}
