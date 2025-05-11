@@ -1,7 +1,12 @@
 - name: Développeur Full-stack
   location: Toulouse, France
   corp: Moovance
-  description: ...
+  description: >
+    Développement d'une application mobile avec 40k utilisateurs 
+    actifs. Stack Flutter, Java, NestJS (TypeScript), SQL, Google Cloud Platform.
+    Expérience complète en équipe DevOps agile, impliqué sur 
+    l'ensemble du projet, du backend au frontend. Collaboration étroite, 
+    méthodes agiles et participation à toutes les étapes du cycle de développement.
   date: Septembre 2024 - Aujourd'hui
   img: /assets/img/moovance.png
 
@@ -22,10 +27,10 @@
   corp: INP-net
   description: >
     Développement de "Churros", une application étudiante de 
-    l’ENSEEIHT similaire à un réseau social, par une équipe 
+    l'ENSEEIHT similaire à un réseau social, par une équipe 
     de 10 personnes. Réalisée en Svelte, TypeScript et PLpgSQL, 
-    sa conception a débuté à l’été 2023 avec pour objectif une 
-    mise en service en septembre. L’application est régulièrement 
-    mise à jour par l’équipe de développement.
+    sa conception a débuté à l'été 2023 avec pour objectif une 
+    mise en service en septembre. L'application est régulièrement 
+    mise à jour par l'équipe de développement.
   date: juillet 2023 - Aujourd'hui
   img: /assets/img/net7.svg

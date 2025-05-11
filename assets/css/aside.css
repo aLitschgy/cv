@@ -4,10 +4,12 @@ aside {
   font-size: var(--font-size-small);
 }
 
+aside > * {
+  margin: var(--margin-block) 0 calc(3 * var(--margin-block));
+}
 aside > p {
   text-align: justify;
   hyphens: auto;
-  margin: var(--margin-block) 0;
 }
 
 aside .uil,
@@ -22,7 +24,7 @@ aside a {
 }
 
 #photoCV {
-  height: 180px;
+  height: 100px;
   object-fit: contain;
   border-radius: 50%;
   margin: var(--margin-block) auto;
@@ -39,10 +41,8 @@ aside h3 {
   text-align: center;
   border-bottom: 1px solid #000;
   line-height: 0.1em;
-  margin: var(--margin-block) 0 var(--margin-lg);
   font-weight: bold;
   font-size: var(--font-size-medium);
-  margin-top: var(--margin-lg);
 }
 
 aside h3 span {

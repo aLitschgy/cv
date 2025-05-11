@@ -68,13 +68,13 @@
   }
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 505px) {
   :root {
-    --font-size-base: 0.5rem;
-    --font-size-h1: 0.9375rem;
-    --font-size-h2: 0.8125rem;
-    --font-size-h3: 0.75rem;
-    --font-size-small: 0.4375rem;
+    --font-size-base: 0.45rem;
+    --font-size-h1: 0.8rem;
+    --font-size-h2: 0.7rem;
+    --font-size-h3: 0.6rem;
+    --font-size-small: 0.35rem;
   }
 }
 
