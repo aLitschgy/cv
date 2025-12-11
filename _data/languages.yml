@@ -4,6 +4,15 @@
 - name: React
   level: Avancé
   logo-name: react
+- name: Vue
+  level: Avancé
+  logo-name: vuejs
+- name: Express.js
+  level: Avancé
+  logo-name: express
+- name: Nest.js
+  level: Intermédiaire
+  logo-name: nestjs
 - name: Svelte
   level: Avancé
   logo-name: svelte
@@ -17,7 +26,7 @@
   level: Avancé
   logo-name: azuresqldatabase
 - name: C
-  level: Avancé
+  level: Intermédiaire
   logo-name: c
 - name: Java
   level: Intermédiaire
@@ -29,3 +38,6 @@
   level: Spécialisé
   logo-name: html5
   logo-name2: css3
+- name: PostgreSQL
+  level: Avancé
+  logo-name: postgresql

@@ -69,11 +69,3 @@ section.main h4 {
   margin-right: var(--margin-inline);
 }
 
-/* Languages de programmation */
-section.main .language-list {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  font-size: var(--font-size-small);
-  gap: var(--spacing-sm);
-  margin-top: var(--margin-block);
-}

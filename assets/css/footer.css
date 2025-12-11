@@ -1,0 +1,24 @@
+
+footer{
+  grid-column: span 2;
+  padding: var(--padding-section);
+  background-color: #243d45;
+  color: #fafafa;
+}
+
+footer h2 {
+  text-align: center;
+}
+
+footer h2 .title-note{
+  font-size: 0.5rem;
+}
+
+/* Languages de programmation */
+footer .language-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: var(--font-size-small);
+  gap: var(--spacing-sm);
+  margin-top: var(--margin-block);
+}
