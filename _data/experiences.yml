@@ -1,5 +1,13 @@
-- name: Développeur Full-stack
-  location: Toulouse, France
+- name: Ingénieur Logiciel Full Stack (CDI)
+  location: Toulouse, France (31)
+  corp: Viveris
+  description: >
+    A venir
+  date: Novembre 2025 - Maintenant
+  img: /assets/img/viveris.png
+
+- name: Développeur Full-stack (Alternance)
+  location: Toulouse, France (31)
   corp: Moovance
   description: >
     Développement d'une application mobile avec 40k utilisateurs 
@@ -7,11 +15,11 @@
     Expérience complète en équipe DevOps agile, impliqué sur 
     l'ensemble du projet, du backend au frontend. Collaboration étroite, 
     méthodes agiles et participation à toutes les étapes du cycle de développement.
-  date: Septembre 2024 - Aujourd'hui
+  date: Septembre 2024 - Octobre 2025
   img: /assets/img/moovance.png
 
-- name: Développeur Full-stack
-  location: Toulouse, France
+- name: Développeur Full-stack (Stage)
+  location: Toulouse, France (31)
   corp: Thales Alenia Space
   description: >
     Développement de plusieurs applications pour le pôle 
