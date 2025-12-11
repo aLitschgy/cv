@@ -1,14 +1,19 @@
 - name: git
   logo-name: git
-- name: Node.js
-  logo-name: nodejs
-- name: scrum
+- name: Scrum
   logo-name:
-- name: Latex
-  logo-name: latex
-- name: Jekyll
-  logo-name: jekyll
-- name: Devops
-  logo-name:
-- name: Google Cloud
+- name: GCP
   logo-name: googlecloud
+- name: Docker
+  logo-name: docker
+- name: Kubernetes
+  logo-name: kubernetes
+- name: Jenkins
+  logo-name: jenkins
+- name: Gitlab CI
+  logo-name: gitlab
+- name: Linux
+  logo-name: linux
+
+
+
