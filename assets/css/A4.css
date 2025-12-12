@@ -1,10 +1,7 @@
 body {
   background: rgb(204, 204, 204);
   margin: 0;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  height: 100svh;
 }
 
 main {
@@ -23,8 +20,6 @@ main {
     height: calc(100vw * 29.7 / 21);
     margin: 0;
     box-shadow: none;
-    min-width: 450px;
-    min-height: 642px;
   }
 }
 
@@ -50,7 +45,7 @@ main {
   }
 
   /* Règles pour conserver les couleurs lors de l'impression */
-  header {
+  header, footer {
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
     background-color: #243d45 !important;

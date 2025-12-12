@@ -1,11 +1,14 @@
 aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: #cdd6d8;
   padding: var(--padding-section);
   font-size: var(--font-size-small);
 }
 
 aside > * {
-  margin: var(--margin-block) 0 calc(3 * var(--margin-block));
+  margin: var(--margin-block) 0 calc(2 * var(--margin-block));
 }
 aside > p {
   text-align: justify;
@@ -24,7 +27,7 @@ aside a {
 }
 
 #photoCV {
-  height: 100px;
+  height: calc(5 * var(--font-size-base));
   object-fit: contain;
   border-radius: 50%;
   margin: var(--margin-block) auto;
@@ -33,7 +36,6 @@ aside a {
 .photo-container {
   display: flex;
   flex-direction: column;
-  padding: var(--padding-block) 0;
 }
 
 aside h3 {

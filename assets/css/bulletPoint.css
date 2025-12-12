@@ -10,7 +10,7 @@
   border-radius: 0.2rem;
   padding: 0 0.1rem;
   margin: 0.1rem;
-  line-height: 1rem;
+  line-height: var(--font-size-base);
   word-spacing: normal;
   letter-spacing: normal;
   white-space: nowrap;

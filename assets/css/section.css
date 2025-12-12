@@ -1,5 +1,7 @@
 section.main {
   padding: var(--padding-section);
+  display: flex;
+  flex-direction: column;
 }
 
 section.main h2 {
@@ -13,6 +15,8 @@ section.main > .container {
   display: flex;
   flex-direction: column;
   gap: var(--spacing-md);
+  justify-content: space-around;
+  flex: max-content;
 }
 
 section.main .line {
@@ -51,8 +55,8 @@ section.main .year {
   padding: 0 var(--padding-inline);
 }
 
-section.main .year img {
-  max-height: 2rem;
+section.main .line .year img {
+  max-height: calc(5 * var(--font-size-base));
   max-width: 100%;
   margin: var(--margin-xs) 0;
 }

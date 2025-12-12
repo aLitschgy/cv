@@ -1,6 +1,8 @@
-<h2>
-  <i class="uil uil-graduation-cap"></i>Enseignement</h2>
-<hr/>
+<div>
+  <h2>
+    <i class="uil uil-graduation-cap"></i>Enseignement</h2>
+  <hr/>
+</div>
 <div class="container">
   {% for school in site.data.enseignement %}
     {% include function/line.html name=school.name location=school.location description=school.description corp=school.corp date=school.date img=school.img %}

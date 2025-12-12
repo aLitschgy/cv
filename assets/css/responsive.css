@@ -13,13 +13,16 @@
   --spacing-xxl: 1.5rem; /* 24px */
 
   --margin-section: 0.75rem;
-  --margin-block: 0.5rem;
+  --margin-block: 0.35rem;
   --margin-inline: 0.25rem;
 
   --padding-section: 0.75rem;
-  --padding-block: 0.5rem;
+  --padding-block: 0.35rem;
   --padding-inline: 0.25rem;
   --padding-container: 0.5rem;
+
+  --header-height: 100px;
+  --footer-height: 200px;
 }
 
 @media screen and (max-width: 21cm) {
@@ -38,24 +41,35 @@
     --spacing-xxl: 0.75rem; /* 12px */
 
     --margin-section: 0.5rem;
-    --margin-block: 0.375rem;
+    --margin-block: 0.25rem;
     --margin-inline: 0.125rem;
 
     --padding-section: 0.5rem;
-    --padding-block: 0.375rem;
+    --padding-block: 0.25rem;
     --padding-inline: 0.125rem;
     --padding-container: 0.375rem;
+
+    --header-height: 90px;
+    --footer-height: 180px;
   }
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 680px) {
   :root {
     --font-size-base: 0.75rem;
     --font-size-h1: 1.25rem;
     --font-size-h2: 1.125rem;
     --font-size-h3: 1.0625rem;
-    --font-size-small: 0.625rem;
+    --font-size-small: 0.575rem;
+
+    --header-height: 70px;
+    --footer-height: 140px;
   }
+  
+  main {
+    height:100%;
+  }
+
 }
 
 @media screen and (max-width: 550px) {
@@ -64,17 +78,17 @@
     --font-size-h1: 1.0625rem;
     --font-size-h2: 0.9375rem;
     --font-size-h3: 0.875rem;
-    --font-size-small: 0.5rem;
+    --font-size-small: 0.45rem;
   }
 }
 
-@media screen and (max-width: 505px) {
+@media screen and (max-width: 470px) {
   :root {
     --font-size-base: 0.45rem;
     --font-size-h1: 0.8rem;
     --font-size-h2: 0.7rem;
     --font-size-h3: 0.6rem;
-    --font-size-small: 0.35rem;
+    --font-size-small: 0.3rem;
   }
 }
 

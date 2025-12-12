@@ -1,7 +1,6 @@
 header {
   padding: var(--padding-section);
   margin: 0;
-  height: 100px;
   width: 100%;
   background-color: #243d45;
   color: #fafafa;
@@ -11,14 +10,6 @@ header {
   align-items: center;
   grid-column: span 2;
   box-sizing: border-box;
-}
-
-main {
-  padding: 0;
-  font-family: "Utopia", Arial, sans-serif;
-  display: grid;
-  grid-template-columns: 1.1fr 2fr;
-  grid-template-rows: 100px auto;
 }
 
 header h1,
