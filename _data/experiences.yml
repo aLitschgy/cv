@@ -34,11 +34,9 @@
   location: Toulouse, France (31)
   corp: INP-net
   description: >
-    Développement de "Churros", une application étudiante de 
-    l'ENSEEIHT similaire à un réseau social, par une équipe 
-    de 10 personnes. Réalisée en Svelte, TypeScript et PLpgSQL, 
+    Développement de l'application étudiante de l'ENSEEIHT.
+    Réalisée en Svelte, TypeScript et PLpgSQL, 
     sa conception a débuté à l'été 2023 avec pour objectif une 
-    mise en service en septembre. L'application est régulièrement 
-    mise à jour par l'équipe de développement.
+    mise en service en septembre.
   date: juillet 2023 - Aujourd'hui
   img: /assets/img/net7.svg

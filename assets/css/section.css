@@ -56,7 +56,7 @@ section.main .year {
 }
 
 section.main .line .year img {
-  max-height: calc(5 * var(--font-size-base));
+  max-height: calc(3 * var(--font-size-base));
   max-width: 100%;
   margin: var(--margin-xs) 0;
 }
