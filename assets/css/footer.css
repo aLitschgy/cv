@@ -14,7 +14,7 @@ footer h2 {
 }
 
 footer h2 .title-note{
-  font-size: 0.5rem;
+  font-size: var(--font-size-xxs);
 }
 
 footer hr {
@@ -28,4 +28,8 @@ footer .language-list {
   font-size: var(--font-size-small);
   gap: var(--spacing-sm);
   margin-top: var(--margin-block);
+}
+
+footer .language-list i {
+  font-size: var(--font-size-xs);
 }
