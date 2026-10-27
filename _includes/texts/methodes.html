@@ -1,0 +1,12 @@
+<h3>
+  <span>Méthodes et outils</span>
+</h3>
+<div class="bullet-points">
+  {% for methode in site.data.methodes %}
+
+  <span class="bullet">
+    <i class="devicon-{{methode.logo-name}}-plain colored"></i>
+    <strong>{{ methode.name }}</strong>
+  </span>
+  {% endfor %}
+</div>

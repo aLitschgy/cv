@@ -1,12 +1,9 @@
 <div>
-  <h2>
-    <i class="uil uil-briefcase-alt"></i>
-    Experiences
-  </h2>
-  <hr/>
+  <h2><i class="uil uil-briefcase-alt"></i> Experiences</h2>
+  <hr />
 </div>
 <div class="container">
-  {% for exp in site.data.experiences %}
-    {% include function/line.html name=exp.name location=exp.location description=exp.description corp=exp.corp date=exp.date img=exp.img %}
-  {% endfor %}
+  {% for exp in site.data.experiences %} {% include function/line.html
+  name=exp.name location=exp.location description=exp.description corp=exp.corp
+  date=exp.date img=exp.img %} {% endfor %}
 </div>

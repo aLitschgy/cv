@@ -1,9 +1,19 @@
-- name: Ingénieur Logiciel Full Stack (CDI)
+- name: Consultant Ingénieur Logiciel / Devops (CDI)
   location: Toulouse, France (31)
-  corp: Viveris
-  description: >
-    A venir
-  date: Novembre 2025 - Maintenant
+  corp: Viveris, en mission chez un opérateur international de télécommunications
+  description: |
+    Plateforme de gestion de machines virtuelles sécurisées.
+    - API backend *(FastAPI, PostgreSQL)* : Développement de nouvelles fonctionnalités, refonte de l'authentification et de la gestion des utilisateurs, couverture de tests complète.
+    - Image de VM durcie *(Packer, Debian)* : mise en conformité CIS Benchmark (SSH, élévation de privilèges), corrections issues d'un pentest, chaîne de validation automatique avec Goss et Lynis.
+    - Gestion de configuration *(Puppet 8)* : modules de déploiement des services, hotfix de sécurité.
+    - Frontend *(Vue 3, TypeScript)* : création d'une application d'inventaire des machines virtuelles.
+
+    Outil de reporting des sauvegardes d'une flotte d'équipements embarqués *(Django/DRF, Vue 3)*
+    - Refonte de l'authentification JWT, couverture de tests complète, évolutions fonctionnelles et nouvelle charte graphique.
+    - Conteneurisation et déploiement sur Kubernetes *(Kustomize, ArgoCD)*.
+
+    CI/CD et infra : pipelines Jenkins, Docker, Rancher, SonarQube.
+  date: 2025 - Maintenant
   img: /assets/img/viveris.png
 
 - name: Développeur Full-stack (Alternance)
@@ -15,7 +25,7 @@
     Expérience complète en équipe DevOps agile, impliqué sur 
     l'ensemble du projet, du backend au frontend. Collaboration étroite, 
     méthodes agiles et participation à toutes les étapes du cycle de développement.
-  date: Septembre 2024 - Octobre 2025
+  date: 2024-2025 (6 mois)
   img: /assets/img/moovance.png
 
 - name: Développeur Full-stack (Stage)
@@ -27,7 +37,7 @@
     d'une application React TypeScript sous Electron, avec 
     des contributions en Python et l'utilisation d'autres 
     frameworks JavaScript tels qu'Angular.
-  date: juin-septembre 2023
+  date: 2023 (6 mois)
   img: /assets/img/TAS.svg
 
 - name: Développeur Full-stack
@@ -38,5 +48,5 @@
     Réalisée en Svelte, TypeScript et PLpgSQL, 
     sa conception a débuté à l'été 2023 avec pour objectif une 
     mise en service en septembre.
-  date: juillet 2023 - juin 2025
+  date: 2023-2025
   img: /assets/img/net7.svg

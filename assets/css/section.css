@@ -8,7 +8,16 @@ section.main h2 {
   font-weight: 700;
   margin: 0;
   text-transform: uppercase;
-  margin-bottom: var(--margin-block);
+}
+
+section.main h4 {
+  text-wrap: wrap;
+  margin: 0;
+  margin-right: var(--margin-inline);
+}
+
+section.main hr {
+  margin: var(--margin-block) 0;
 }
 
 section.main > .container {
@@ -22,7 +31,7 @@ section.main > .container {
 section.main .line {
   display: grid;
   margin-bottom: var(--margin-block);
-  grid-template-columns: 1fr min-content 3fr;
+  grid-template-columns: 1fr min-content 6fr;
 }
 
 section.main .vertical-line {
@@ -57,19 +66,17 @@ section.main .year {
 
 section.main .line .year img {
   max-height: calc(3 * var(--font-size-base));
-  max-width: 100%;
+  max-width: 90%;
   margin: var(--margin-xs) 0;
 }
 
-section.main p {
-  font-size: var(--font-size-small);
+section.main p,
+section.main .description {
+  font-size: var(--font-size-xs);
   margin: 0;
   padding: var(--padding-xs) 0;
 }
 
-section.main h4 {
-  text-wrap: wrap;
+section.main .description ul {
   margin: 0;
-  margin-right: var(--margin-inline);
 }
-

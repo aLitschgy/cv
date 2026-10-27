@@ -1,0 +1,15 @@
+- name: git
+  logo-name: git
+- name: Jira
+  logo-name: jira
+- name: Travail avec l'IA
+  logo-name: claudecode
+- name: Confluence
+  logo-name: confluence
+- name: openAPI
+  logo-name: openapi
+- name: Postman / Bruno
+  logo-name: postman
+
+
+

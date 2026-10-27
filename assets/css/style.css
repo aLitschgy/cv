@@ -2,8 +2,8 @@ main {
   padding: 0;
   font-family: "Utopia", Arial, sans-serif;
   display: grid;
-  grid-template-columns: 1.1fr 2fr;
-  grid-template-rows: var(--header-height) auto var(--footer-height);
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: min-content auto min-content;
   overflow: hidden;
 }
 

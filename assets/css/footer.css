@@ -1,33 +1,62 @@
-
-footer{
+footer {
   grid-column: span 2;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  padding: var(--padding-section);
+  justify-content: flex-start;
+  padding: var(--footer-padding-block) var(--padding-section);
   background-color: #243d45;
   color: #fafafa;
 }
 
 footer h2 {
   text-align: center;
+  margin: 0;
 }
 
-footer h2 .title-note{
+footer h2 .title-note {
   font-size: var(--font-size-xxs);
 }
 
 footer hr {
   width: 80%;
+  margin: var(--footer-spacing-xs) auto var(--footer-spacing-sm);
 }
 
-/* Languages de programmation */
-footer .language-list {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+footer .technical-skills {
+  column-count: 4;
+  column-gap: var(--footer-spacing-md);
+}
+
+footer .skill-category h3 {
+  margin: 0 0 var(--footer-spacing-xs);
+  line-height: var(--footer-line-height);
+}
+
+footer .skill-category {
+  margin-bottom: var(--footer-spacing-sm);
+}
+
+footer .skill-category:not(:first-child) {
+  padding-top: var(--footer-spacing-sm);
+}
+
+footer .skill-category h3 {
   font-size: var(--font-size-small);
-  gap: var(--spacing-sm);
-  margin-top: var(--margin-block);
+}
+
+footer .language-list {
+  font-size: var(--font-size-small);
+  gap: var(--footer-spacing-xs) var(--footer-spacing-sm);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+footer .language-list li {
+  min-width: 0;
+  gap: var(--footer-spacing-xs);
+  line-height: var(--footer-line-height);
+  white-space: nowrap;
 }
 
 footer .language-list i {

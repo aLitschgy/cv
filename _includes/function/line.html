@@ -4,7 +4,7 @@
       <strong>{{ include.date }}</strong>
     </p>
     {% if include.img != nil %}
-      <img src="{{ include.img }}" alt="logo">
+    <img src="{{ include.img }}" alt="logo" />
     {% endif %}
   </div>
   <div class="vertical-line"></div>
@@ -15,11 +15,12 @@
       </div>
       <p class="location">
         <i class="uil uil-location-point"></i>
-        {{ include.location }}</p>
+        {{ include.location }}
+      </p>
     </div>
     <p>
       <i>{{ include.corp }}</i>
     </p>
-    <p>{{ include.description }}</p>
+    <div class="description">{{ include.description | markdownify }}</div>
   </div>
 </div>

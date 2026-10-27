@@ -1,18 +1,20 @@
-<h2>
-	<i class="uil uil-code-branch"></i>Languages de programmation <span class="title-note">et de balisage</span>
-</h2>
-<hr/>
-<div class="container">
-  <ul class="language-list">
-    {% for language in site.data.languages %}
+<h2><i class="uil uil-code-branch"></i>Compétences techniques</h2>
+<hr />
+<div class="technical-skills">
+  {% for category in site.data.languages %}
+  <section class="skill-category">
+    <h3>{{ category.name }}</h3>
+    <ul class="language-list">
+      {% for item in category.items %}
       <li>
-        <i class="devicon-{{language.logo-name}}-plain colored"></i>
-        {% if language.logo-name2 != nil %}
-          <i class="devicon-{{language.logo-name2}}-plain colored"></i>
-        {% endif %}
-        <strong>{{ language.name }}</strong>
-        <i>{{ language.level }}</i>
+        {% if item.logo-name %}
+        <i class="devicon-{{ item.logo-name }} colored"></i>
+        {% endif %} {% if item.logo-name2 %}
+        <i class="devicon-{{ item.logo-name2 }} colored"></i>
+        {% endif %} {{ item.name }}
       </li>
-    {% endfor %}
-  </ul>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
 </div>

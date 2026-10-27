@@ -1,43 +1,70 @@
-- name: TypeScript
-  level: Spécialisé
-  logo-name: typescript
-- name: React
-  level: Avancé
-  logo-name: react
-- name: Vue
-  level: Avancé
-  logo-name: vuejs
-- name: Express.js
-  level: Avancé
-  logo-name: express
-- name: Nest.js
-  level: Intermédiaire
-  logo-name: nestjs
-- name: Svelte
-  level: Avancé
-  logo-name: svelte
-- name: Dart / Flutter
-  level: Avancé
-  logo-name: flutter
-- name: Php
-  level: Avancé
-  logo-name: php
-- name: SQL
-  level: Avancé
-  logo-name: azuresqldatabase
-- name: C
-  level: Intermédiaire
-  logo-name: c
-- name: Java
-  level: Intermédiaire
-  logo-name: java
-- name: Python
-  level: Avancé
-  logo-name: python
-- name: HTML/CSS
-  level: Spécialisé
-  logo-name: html5
-  logo-name2: css3
-- name: PostgreSQL
-  level: Avancé
-  logo-name: postgresql
+- name: Langages
+  items:
+    - name: TypeScript
+      logo-name: typescript-plain
+    - name: HTML/CSS
+      logo-name: html5-plain
+      logo-name2: css3-plain
+    - name: Python
+      logo-name: python-plain
+    - name: PHP
+      logo-name: php-plain
+    - name: Dart
+      logo-name: dart-plain
+    - name: C
+      logo-name: c-plain
+    - name: Java
+      logo-name: java-plain
+
+- name: DevOps et Cloud
+  items:
+    - name: Docker
+      logo-name: docker-plain
+    - name: Kubernetes (Kustomize)
+      logo-name: kubernetes-plain
+    - name: ArgoCD
+      logo-name: argocd-plain
+    - name: Rancher
+      logo-name: rancher-plain
+    - name: GCP
+      logo-name: googlecloud-plain
+    - name: Jenkins
+      logo-name: jenkins-plain
+    - name: GitLab CI
+      logo-name: gitlab-plain
+    - name: SonarQube
+      logo-name: sonarqube-plain
+
+- name: Frameworks
+  items:
+    - name: Vue
+      logo-name: vuejs-plain
+    - name: React
+      logo-name: react-plain
+    - name: Svelte
+      logo-name: svelte-plain
+    - name: Flutter
+      logo-name: flutter-plain
+    - name: Express.js
+      logo-name: express-original
+    - name: Django / DRF
+      logo-name: django-plain
+    - name: FastAPI
+      logo-name: fastapi-plain
+    - name: Nest.js
+      logo-name: nestjs-plain
+
+- name: Système et sécurité
+  items:
+    - name: Linux (Debian)
+      logo-name: debian-plain
+    - name: Puppet
+      logo-name: puppet-plain
+    - name: Packer
+      logo-name: packer-plain
+    - name: cloud-init
+      logo-name: cloud-init-plain
+    - name: CIS Benchmark
+      logo-name: cis-benchmark-plain
+    - name: Goss / Lynis
+      logo-name: lynis-plain
